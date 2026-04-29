@@ -1,0 +1,137 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Launchpad Free",
+    "description": "Perfect for individuals and freelancers just getting started. Access core tools with no commitment required.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "3 projects",
+      "Basic analytics",
+      "5GB storage"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3281/3281289.png"
+  },
+  {
+    "id": "prod_002",
+    "name": "ProFlow Monthly",
+    "description": "Unlock advanced features for growing teams. Billed monthly with full flexibility to cancel anytime.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited projects",
+      "Advanced analytics",
+      "50GB storage"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+  },
+  {
+    "id": "prod_003",
+    "name": "ProFlow Yearly",
+    "description": "Everything in ProFlow Monthly at a significantly reduced rate. Best value for committed teams.",
+    "price": 290,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited projects",
+      "Advanced analytics",
+      "2 months free"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3176/3176366.png"
+  },
+  {
+    "id": "prod_004",
+    "name": "BizCore Suite",
+    "description": "Enterprise-grade tools for scaling teams. Includes SSO, audit logs, and a dedicated account manager.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "SSO & SAML",
+      "500GB storage",
+      "Dedicated account manager"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+  },
+  {
+    "id": "prod_005",
+    "name": "ResumeForge",
+    "description": "Create stunning, ATS-friendly resumes in minutes using 100+ professionally designed templates.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135673.png"
+  },
+  {
+    "id": "prod_006",
+    "name": "InsightLens",
+    "description": "Deep-dive into your data with real-time dashboards, custom reports, and AI-powered insights.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time dashboards",
+      "Custom report builder",
+      "AI-powered insights"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920349.png"
+  },
+  {
+    "id": "prod_007",
+    "name": "NexusScale Enterprise",
+    "description": "Full-scale enterprise deployment with white-glove onboarding, unlimited users, and custom SLAs.",
+    "price": 1199,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited users",
+      "1TB storage",
+      "24/7 phone support"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2910/2910791.png"
+  },
+  {
+    "id": "prod_008",
+    "name": "Quillify AI",
+    "description": "Supercharge your content workflow with AI-generated drafts, tone adjustment, and plagiarism detection.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI content generation",
+      "Plagiarism detection",
+      "Multi-language support"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3271/3271571.png"
+  },
+  {
+    "id": "prod_009",
+    "name": "SyncSpace",
+    "description": "A centralized workspace for teams to manage tasks, share files, and communicate in real time — all in one place.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Real-time messaging",
+      "Task & project management",
+      "File sharing (100GB)"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1534/1534996.png"
+  }
+]
