@@ -131,7 +131,7 @@ npm install
 npm run dev
 ```
 
-The website will open at `http://localhost:5178`
+The website will open at `http://localhost:5179`
 
 ### 3. Build for Production
 
