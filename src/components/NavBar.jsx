@@ -1,10 +1,11 @@
 import React from "react";
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaShoppingCart } from "react-icons/fa";
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
+  const cartCount = carts.length;
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm px-2 sm:px-4 lg:px-8">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +46,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <a className=" text-4xl py-3 font-bold ml-5  bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+          <a className="text-xl sm:text-3xl lg:text-4xl py-3 font-bold ml-1 sm:ml-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             DigiTools
           </a>
         </div>
@@ -69,13 +70,20 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end  flex flex-row ">
-          <FaShoppingCart size={24}></FaShoppingCart>
-          <div className="flex flex-col md:flex-row gap-5 mr-5 lg:flex-row">
-          <div className=" btn btn-outline rounded-4xl px-5 m-1 p-2 font-medium ml-5">Login</div>
-          <a className="btn bg-linear-to-r flex justify-center from-[#4F39F6] to-[#9514FA] text-white rounded-4xl">
-            Get Started
-          </a>
+        <div className="navbar-end flex flex-row items-center gap-2 sm:gap-4">
+          <div className="relative">
+            <FaShoppingCart size={24}></FaShoppingCart>
+            <span className="absolute -top-2 -right-2 min-w-5 h-5 px-1 rounded-full bg-red-500 text-white text-[10px] leading-5 text-center font-semibold">
+              {cartCount > 99 ? "99+" : cartCount}
+            </span>
+          </div>
+          <div className="flex items-center gap-2 sm:gap-3 mr-1 sm:mr-3">
+            <div className="btn btn-outline rounded-4xl px-3 sm:px-5 font-medium hidden sm:flex">
+              Login
+            </div>
+            <a className="btn btn-sm sm:btn-md bg-linear-to-r flex justify-center from-[#4F39F6] to-[#9514FA] text-white rounded-4xl px-3 sm:px-5 text-xs sm:text-base">
+              Get Started
+            </a>
           </div>
         </div>
       </div>
