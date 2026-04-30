@@ -1,5 +1,7 @@
 
-Live Link:https://digitoolplatform-jannat.netlify.app
+Live Link:https://digitoolplatform-jannat.netlify.app/
+
+
 A modern, user-friendly website where people can discover, compare, and buy digital tools and software. Built with React and designed to be fast and responsive.
 
 ---
