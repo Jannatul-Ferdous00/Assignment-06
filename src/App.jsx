@@ -25,7 +25,7 @@ function App() {
   const [carts, setCarts] = useState([])
   return (
     <>
-     <NavBar carts={carts} />
+     <NavBar />
 
      <Banner />
 
